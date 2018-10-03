@@ -12,18 +12,26 @@ alias dotfiles="cd ~/dotfiles"
 alias swift_docs="open https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html"
 
 # Git aliases
+alias g="git"
 alias gs="git status"
 alias ga="git add"
 alias gd="git diff --patience --ignore-space-change"
-alias gc="git checkout"
-alias gcb="git checkout -b"
-alias gcom="git commit"
+alias gco="git checkout"
+alias gcob="git checkout -b"
+alias gc="git commit"
 alias gb="git branch"
 alias glog='git log --graph --pretty="%Cgreen%h%Creset%Cblue%d%Creset %Cred%an%Creset: %s"'
 alias gfet='git fetch'
 alias grebase='git rebase HEAD -i ~'
 alias gpush='git push'
 alias gremote='git remote'
+
+# Swift steem
+alias sf="swiftformat --self insert SteemWallet SteemWalletTests SteemWalletUITests"
+alias sformat="swiftformat --self insert"
+
+#you
+alias you="yarn run dev 8080"
 
 # fancy ls command
 # -l  long format

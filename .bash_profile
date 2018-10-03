@@ -9,3 +9,10 @@ export NVM_DIR="$HOME/.nvm"
 
 source $HOME/dotfiles/bash/aliases.bash
 source $HOME/dotfiles/bash/prompt.bash
+source $HOME/dotfiles/bash/prompt.bash
+source $HOME/dotfiles/.git-completion.bash
+GIT_PS1_SHOWDIRTYSTATE=true
+export PS1='[\u@mbp \w$(__git_ps1)]\$ 
+
+#flutter
+export PATH="$HOME/Projects/flutter/flutter/bin:$PATH"
