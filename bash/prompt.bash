@@ -26,7 +26,7 @@ export PROMPT_COMMAND="my_custom_function; $PROMPT_COMMAND"
     git_branch=`parse_git_branch`
     if [[ ! -z "$git_branch" ]]
     then
-      ps1="${ps1} ∆|• $(prompt_segment "$git_branch " 94)🦕"
+      ps1="${ps1} ∆|• $(prompt_segment "$git_branch " 94)🦉"
     fi
 
     emojis=( 🐸 🏺 👺)
