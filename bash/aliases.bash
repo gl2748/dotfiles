@@ -9,7 +9,7 @@ alias vimrc="nvim ~/dotfiles/.vimrc"
 alias dotfiles="cd ~/dotfiles"
 
 # Chrome shortcuts
-alias swift_docs="open https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html"
+alias unsafe_chrome="open -a Google\ Chrome --args --disable-web-security --user-data-dir"
 
 # Git aliases
 alias g="git"
@@ -24,14 +24,8 @@ alias glog='git log --graph --pretty="%Cgreen%h%Creset%Cblue%d%Creset %Cred%an%C
 alias gfet='git fetch'
 alias grebase='git rebase HEAD -i ~'
 alias gpush='git push'
+alias gp='git push'
 alias gremote='git remote'
-
-# Swift steem
-alias sf="swiftformat --self insert SteemWallet SteemWalletTests SteemWalletUITests"
-alias sformat="swiftformat --self insert"
-
-#you
-alias you="yarn run dev 8080"
 
 # fancy ls command
 # -l  long format

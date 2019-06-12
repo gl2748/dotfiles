@@ -49,7 +49,6 @@ NeoBundle 'rust-lang/rust.vim'
 
 " Tools
 NeoBundle 'kien/ctrlp.vim'
-NeoBundle 'ludovicchabant/vim-gutentags'
 NeoBundle 'pbrisbin/vim-mkdir'
 NeoBundle 'sbdchd/neoformat'
 NeoBundle 'mattn/webapi-vim'  
