@@ -29,8 +29,8 @@ export PROMPT_COMMAND="my_custom_function; $PROMPT_COMMAND"
       ps1="${ps1} ∆|• $(prompt_segment "$git_branch " 94)🦉"
     fi
 
-    emojis=( 🐸 🏺 👺)
-    emoji='`echo ${emojis[$RANDOM % 3]}`'
+    emojis=(⏣ ╋ ↺ ⏅ ╳ ⍾)
+    emoji='`echo ${emojis[$RANDOM % 6]}`'
 
     ps1="${ps1}\n${emoji} "
 
