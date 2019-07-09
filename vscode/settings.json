@@ -29,4 +29,69 @@
             "after": [""]
         }
     ],
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": ["up"],
+            "after": [""]
+        },
+        {
+            "before": ["down"],
+            "after": [""]
+        },
+        {
+            "before": ["left"],
+            "after": [""]
+        },
+        {
+            "before": ["right"],
+            "after": [""]
+        },
+        {
+            "before": ["ctrl+k"],
+            "after": ["up"]
+        },
+        {
+            "before": ["ctrl+j"],
+            "after": ["down"]
+        },
+        {
+            "before": ["ctrl+h"],
+            "after": ["left"]
+        },
+        {
+            "before": ["ctrl+l"],
+            "after": ["right"]
+        } 
+    ]
+}{
+    "editor.fontSize": 18,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "explorer.confirmDragAndDrop": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "zenMode.centerLayout": false,
+    "window.zoomLevel": 0,
+    "explorer.confirmDelete": false,
+    "editor.cursorSmoothCaretAnimation": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["up"],
+            "after": [""]
+        },
+        {
+            "before": ["down"],
+            "after": [""]
+        },
+        {
+            "before": ["left"],
+            "after": [""]
+        },
+        {
+            "before": ["right"],
+            "after": [""]
+        }
+    ],
 }
