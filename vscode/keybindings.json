@@ -1,0 +1,18 @@
+// Place your key bindings in this file to override the defaults
+[{
+    "key": "right",
+    "command": "",
+    "when": "editorTextFocus"
+},{
+    "key": "left",
+    "command": "",
+    "when": "editorTextFocus"
+},{
+    "key": "down",
+    "command": "",
+    "when": "editorTextFocus"
+},{
+    "key": "up",
+    "command": "",
+    "when": "editorTextFocus"
+}]

@@ -30,6 +30,15 @@ ln -s ~/dotfiles/.vimrc ~/.vimrc
 rm -rf ~/.config/nvim
 ln -s ~/.vim ~/.config/nvim
 ln -s ~/dotfiles/.vimrc ~/.vim/init.vim
+ln -s ~/dotfiles/.bash_profile ~/.bash_profile
+
 ```
 * Open `vim` and run `NeoBundleInstall`
 * Open `nvim`
+
+
+## Install Fira Code.
+In the downloaded TTF folder:  
+Select all font files  
+Right click and select Open (alternatively Open With Font Book)  
+Select "Install Font"  
