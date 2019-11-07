@@ -19,4 +19,57 @@
     "workbench.colorTheme": "Default High Contrast",
     "vim.easymotion": true,
     "editor.lineNumbers": "relative"
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["up"],
+            "after": [""]
+        },
+        {
+            "before": ["down"],
+            "after": [""]
+        },
+        {
+            "before": ["left"],
+            "after": [""]
+        },
+        {
+            "before": ["right"],
+            "after": [""]
+        }
+    ],
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": ["up"],
+            "after": [""]
+        },
+        {
+            "before": ["down"],
+            "after": [""]
+        },
+        {
+            "before": ["left"],
+            "after": [""]
+        },
+        {
+            "before": ["right"],
+            "after": [""]
+        },
+        {
+            "before": ["ctrl+k"],
+            "after": ["up"]
+        },
+        {
+            "before": ["ctrl+j"],
+            "after": ["down"]
+        },
+        {
+            "before": ["ctrl+h"],
+            "after": ["left"]
+        },
+        {
+            "before": ["ctrl+l"],
+            "after": ["right"]
+        } 
+    ]
 }
+
