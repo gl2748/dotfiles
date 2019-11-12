@@ -62,6 +62,9 @@ NeoBundle 'chrisbra/Colorizer'
 NeoBundle 'arcticicestudio/nord-vim'
 NeoBundle 'dracula/vim'
 
+" Auto Completion
+NeoBundle 'racer-rust/vim-racer'
+
 call neobundle#end()
 
 NeoBundleCheck
