@@ -65,6 +65,9 @@ NeoBundle 'dracula/vim'
 " Auto Completion
 NeoBundle 'racer-rust/vim-racer'
 
+" Fuzzy Search
+NeoBundle 'junegunn/fzf'
+
 call neobundle#end()
 
 NeoBundleCheck

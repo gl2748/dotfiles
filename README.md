@@ -30,7 +30,9 @@ ln -s ~/dotfiles/.vimrc ~/.vimrc
 rm -rf ~/.config/nvim
 ln -s ~/.vim ~/.config/nvim
 ln -s ~/dotfiles/.vimrc ~/.vim/init.vim
+ln -s ~/dotfiles/.vimrc ~/.vimrc
 ln -s ~/dotfiles/.bash_profile ~/.bash_profile
+ln -s ~/dotfiles/.zsh_profile ~/.zshrc 
 
 ```
 * Open `vim` and run `NeoBundleInstall`
