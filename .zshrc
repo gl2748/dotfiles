@@ -1,3 +1,5 @@
+echo "/ /\ / /\/"
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -98,4 +100,38 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# fzf prefer fd
+export FZF_DEFAULT_COMMAND='fd --type f --color=never'
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_ALT_C_COMMAND='fd --type d . --color=never'
+
+# fzf window preferences
+export FZF_DEFAULT_OPTS='
+  --height 75% --multi --reverse
+  --bind ctrl-f:page-down,ctrl-b:page-up
+'
+
+# fzf enable file preview using bat
+export FZF_CTRL_T_OPTS="--preview 'bat --color=always --line-range :500 {}'"
+
+# fzf enable directory previews using tree
+export FZF_ALT_C_OPTS="--preview 'tree -C {} | head -100'"
+
+# start tmux on terminal open
+if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+  exec tmux
+fi
+
+# aliases
+source $HOME/dotfiles/bash/aliases.bash
+
+# rust cargo
+source $HOME/.cargo/env
+export RUST_SRC_PATH=${HOME}/.rustup/toolchains/nightly-x86_64-apple-darwin/lib/rustlib/src/rust/src
+
+# rust follow instructions here:  https://hoverbear.org/blog/setting-up-a-rust-devenv/ 
+export DYLD_LIBRARY_PATH=${HOME}/.rustup/toolchains/stable-x86_64-apple-darwin/lib
+export RLS_ROOT=${HOME}/git/rust/rls

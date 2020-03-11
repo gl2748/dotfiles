@@ -18,6 +18,9 @@ ln -s ~/dotfiles/.vimrc ~/.vimrc
   brew install nvm
   pick a theme for iTerm2 (alien is good)
   install a monospaced code font with ligatures (FiraCode is good)
+  brew install fzf
+  brew install fd
+  brew install ripgrep bat tree
 ```
 ## Set Up Neovim On New Machine
 
